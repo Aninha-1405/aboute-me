@@ -1,0 +1,174 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+     justify-content: flex;
+
+}
+
+.imagem-destaque {
+    width: 100%;
+    max-width: 1000px;
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.produtos-lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produto {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 30%; 
+    margin: 10px;
+    text-align: center; 
+    background-color:white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.produto-imagem {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+}
+
+.preco {
+    font-size: 1.2em; 
+    color: #FF0000; 
+    margin: 10px 0; 
+}
+
+button {
+    background-color: #00008B; 
+    color: white; 
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color:red; 
+}
+
+
+.servicos-lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.servico {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 50%; 
+    margin: 10px;
+    text-align: center; 
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  
+}
+
+.servico-imagem {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+h3 {
+    margin-top: 5px;
+    text-align: center; 
+    font-size: 1.8em;
+   justify-content: flex;
+
+
+}
+
+
+
+
+
+.post {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 30%; 
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+header {
+    background-color:#00008B;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 5px;
+    width: 150%;
+    margin: 10px;
+    text-align: center; 
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+
+
+}
+
+.redes-sociais {
+    margin-top: 15px; 
+}
+
+.icone-rede {
+    width: 30px; 
+    height: auto; 
+    margin: 0 10px; 
+    transition: transform 0.2s;
+}
+
+.icone-rede:hover {
+    transform: scale(1.1); 
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #00008B;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
